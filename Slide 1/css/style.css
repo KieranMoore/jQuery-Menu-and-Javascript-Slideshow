@@ -1,0 +1,100 @@
+html {
+    background: url("../images/Background.jpg") no-repeat scroll left top transparent;
+    background-size: contain;
+    width: 1024px;
+    height: 768px;
+    min-width:100%;
+
+}
+
+.header img {
+
+	width: 200px;
+	margin: 125px 0px 100px 100px;
+}
+
+body {
+	margin: 0;
+}
+
+.text {
+
+	width: 700px;
+	z-index: -1;
+	margin: 0px 0px 0px 50px;
+	padding-bottom: 100px;
+}
+
+#popout {
+	z-index: 100;
+	position: fixed;
+	width: 50px;
+	margin-top: 300px;
+	margin-left: 0px;
+	opacity: 0.1;
+
+}
+
+#popout:hover {
+	opacity: .5;
+}
+
+.slideout-menu {
+	
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: -200px;
+	width: 200px;
+	height: 100%;
+	z-index: 100;
+}
+
+.slideout-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.slideout-menu ul li {
+	border-top: 1px solid #454545;
+	border-bottom: 1px solid #151515;
+}
+
+
+.blue {
+	background: blue;
+	background: linear-gradient(to right, blue , black);
+}
+
+.red {
+	background: red;
+	background: linear-gradient(to right, red , black);
+}
+
+.grey{
+	background: grey;
+	background: linear-gradient(to right, grey , black);
+}
+
+.yellow {
+	background: GoldenRod;
+	background: linear-gradient(to right, GoldenRod , black);
+}
+
+.lightgrey {
+	background: lightgrey;
+	background: linear-gradient(to right, lightgrey , black);
+}
+
+.slideout-menu ul li a {
+	position: relative;
+	display: block;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.slideout-menu ul li a:hover {
+	background: #000;
+	color: #fff;
